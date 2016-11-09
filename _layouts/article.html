@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<article>
+	<hgroup>
+		<h1 class="article-title"><a href="{{page.url}}">{{ page.title }}</h1>
+		<h3 class="article-date"><a href="{{page.url}}">{{ page.date | date_to_string }}</a></h3>
+	</hgroup>
+
+	<div class="post-body">
+		{{ page.content }}
+	</div>
+	<div>
+		{% if page.previous %}
+			<a class="next-arrow" href="{{ page.previous.url }}">→</a>
+		{% endif %}
+			
+		{% if page.next %}
+			<a class="prev-arrow" href="{{ page.next.url }}">←</a>
+		{% endif %}
+	</div>
+</article>
+
+<section>
+	<h2>Older articles</h2>
+	<ul>
+		{% for post in site.posts limit:6 %}
+
+			{% if post != page %}
+			<li>
+				<a href='{{post.url }}'>{{post.title }}</a>
+				<span class="date">{{post.date | date_to_string }}</span>
+			</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+	<!-- <a class="archive-link" href="/blog/archive">Full archive</a> -->
+</section>

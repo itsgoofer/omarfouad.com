@@ -1,0 +1,60 @@
+article,
+.page
+  border-bottom: 1px solid $gray
+  margin-bottom: 3em
+  hgroup
+    margin-bottom: 3em
+    .article-title, .page-title
+      a
+        color: $article_title_color
+      a:hover
+        color: $blue
+    .article-date
+      a
+        color: $article_date_color
+  .post-body, .page-body
+    -webkit-transition: font-size 0.25s $easeInOutQuad
+    -moz-transition: font-size 0.25s $easeInOutQuad
+    -ms-transition: font-size 0.25s $easeInOutQuad
+    -o-transition: font-size 0.25s $easeInOutQuad
+    transition: font-size 0.25s $easeInOutQuad
+    font-size: 1.2em
+    line-height: 1.5em
+    padding-bottom: 2em
+    color: $article_color
+    p
+      margin-bottom: 1.2em
+      a
+        color: $blue
+      a:hover
+        color: white
+
+
+.photo-caption
+  font-style: italic
+  font-size: 0.9em
+
+.prev-arrow, .next-arrow
+  position: fixed
+  top: 35%
+  background-color: $arrow_bg_color
+  padding: 0.8em 1em
+  color: $article_color
+  -webkit-transition: opacity 0.25s $easeOutQuad, background-color 0.25s $easeOutQuad, color 0.25s $easeOutQuad
+  -moz-transition: opacity 0.25s $easeOutQuad, background-color 0.25s $easeOutQuad, color 0.25s $easeOutQuad
+  -ms-transition: opacity 0.25s $easeOutQuad, background-color 0.25s $easeOutQuad, color 0.25s $easeOutQuad
+  -o-transition: opacity 0.25s $easeOutQuad, background-color 0.25s $easeOutQuad, color 0.25s $easeOutQuad
+  transition: opacity 0.25s $easeOutQuad, background-color 0.25s $easeOutQuad, color 0.25s $easeOutQuad
+
+.next-arrow
+  right: 0px
+
+.prev-arrow
+  left: 0px
+
+figure
+  background-repeat: no-repeat
+  background-size: contain
+  margin: 0
+  padding-bottom: 67%
+  position: relative

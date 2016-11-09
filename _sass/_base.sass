@@ -1,0 +1,116 @@
+@import 'includes/normalize'
+@import 'includes/mixins'
+@import 'includes/variables'
+@import 'includes/webfonts'
+@import 'includes/header'
+@import 'includes/article'
+@import 'includes/code'
+@import 'includes/footer'
+
+
+\::selection
+  background: $select_color
+  color: #FFFFFF
+
+\::-moz-selection
+  background: $select_color
+  color: #FFFFFF
+
+html, body
+  background-color: white
+  color: #888
+  font-family: "quattrocento_sansregular", "Helvetica", "Tahoma", "Helvetica", sans-serif
+  text-rendering: optimizeLegibility
+  font-size: 16px
+
+h1
+  font-family: "pt_serifregular", sans-serif
+  font-style: normal
+  font-weight: 400
+  margin: 0 0 0.1em
+  font-size: 2.8em
+  color: $article_color
+
+  -webkit-transition: font-size 0.25s $easeInOutQuad
+  -moz-transition: font-size 0.25s $easeInOutQuad
+  -ms-transition: font-size 0.25s $easeInOutQuad
+  -o-transition: font-size 0.25s $easeInOutQuad
+  transition: font-size 0.25s $easeInOutQuad
+
+h2
+  font-family: "doppio_oneregular", "Tahoma", "Helvetica", sans-serif
+  font-weight: 100
+  font-size: 1.8em
+  color: $gray
+
+h3
+  font-family: "doppio_oneregular", "Tahoma", "Helvetica", sans-serif
+  font-weight: 100
+  font-size: 1em
+  color: $gray
+
+img
+  border: 0
+  width: 100%
+
+a
+  text-decoration: none
+  -webkit-transition: color 0.25s $easeInOutQuad, background-color 0.25s $easeInOutQuad
+  -moz-transition: color 0.25s $easeInOutQuad, background-color 0.25s $easeInOutQuad
+  -ms-transition: color 0.25s $easeInOutQuad, background-color 0.25s $easeInOutQuad
+  -o-transition: color 0.25s $easeInOutQuad, background-color 0.25s $easeInOutQuad
+  transition: color 0.25s $easeInOutQuad, background-color 0.25s $easeInOutQuad
+
+.site-wrapper
+  max-width: 47.5em
+  margin: 0 auto
+  padding: 0 1em
+
+.archive-link
+  font-size: 1.2em
+  color: $blue
+  &:hover
+    color: $blue
+    background-color: $highlight_color
+
+
+section, .post-archive
+  ul
+    list-style-type: none
+    margin: 2em 0
+  li
+    font-size: 1.2em
+    padding: 0.6em 0
+    border-top: 1px solid #EEEEEE
+    +clearfix
+    a
+      float: left
+      color: inherit
+    span
+      font-size: .8em
+      float: right
+
+.post-archive
+  ul
+    margin-top: 0.5em
+  h2
+    margin-bottom: 2em
+
+
+
+@media screen and (max-width: 468px)
+  .article-title
+    font-size: 2em
+  article .post-body
+    font-size: 1em
+
+@media screen and (max-width: 890px)
+  .prev-arrow, .next-arrow
+    opacity: 0
+  section li span,
+  section li a,
+  .post-archive li span,
+  .post-archive li a
+    float: none
+  section li a
+    display: block

@@ -1,0 +1,18 @@
+<header>
+	<a href="/">
+	{% if page.color %}
+		<div class="logo" style="background-color: {{page.color}};"></div>
+	{% else %}
+		<div class="logo" style="background-color: {{site.homecolor}};"></div>
+	{% endif %}
+	</a>
+	<nav>
+		<ul>
+			<li {% if page.title != 'Hello' and page.title != 'Contact' %} class="selected" {% endif %} "><a href="/">Blog</a></li>
+			<li {% if page.title == 'Hello' %} class="selected" {% endif %} ><a href="/about">About</a></li>
+			<li {% if page.title == 'Contact' %} class="selected" {% endif %} ><a href="/contact">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+
+

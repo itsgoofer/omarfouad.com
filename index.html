@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+{% assign first = site.posts.first %}
+
+<article>
+	<hgroup>
+		<h1 class="article-title"><a href="{{first.url}}">{{ first.title }}</h1>
+		<h3 class="article-date"><a href="{{first.url}}">{{ first.date | date_to_string}}</a></h3>
+	</hgroup>
+
+	<div class="post-body">
+		{{ first.content }}
+	</div>
+	<div>
+		{% if first.previous %}
+			<a class="next-arrow" href="{{ first.previous.url }}">→</a>
+		{% endif %}
+			
+		{% if first.next %}
+			<a class="prev-arrow" href="{{ first.next.url }}">←</a>
+		{% endif %}
+	</div>
+</article>
+
+<section>
+	<h2>Older articles</h2>
+	<ul>
+		{% for post in site.posts limit:6 %}
+
+			{% if post != first %}
+			<li>
+				<a href='{{post.url }}'>{{post.title }}</a>
+				<span class="date">{{post.date | date_to_string }}</span>
+			</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+	<!-- <a class="archive-link" href="/blog/archive">Full archive</a> -->
+</section>
