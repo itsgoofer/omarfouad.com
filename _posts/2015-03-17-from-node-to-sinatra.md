@@ -2,6 +2,7 @@
 title: My journey from Rails to Sinatra to Node
 date: 2015-03-17 00:00:00 Z
 permalink: "/blog/2015/03/17/jurney-from-rails-to-sinatra-to-nodejs/"
+color: "#e76262"
 layout: article
 ---
 
