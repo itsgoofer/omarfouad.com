@@ -2,6 +2,7 @@
 title: Back to writing
 date: 2016-11-09 11:15:00 Z
 permalink: "/blog/:title"
+color: "#bdbdbd"
 layout: article
 ---
 
@@ -11,4 +12,6 @@ I've been working on some projects that took almost all of my time in the past f
 
 One of the major updates in my front-end development toolbox is, I actually ditched Angular for [VueJS](http://vuejs.org)—more about that in a later post.
 
-I've also rewritten most of the code for this blog and I had it built with [Jekyll](http://jekyllrb.com) (again). Actually I've been trying different techs for this one, just for the sake of trying them. Worpress (8 years ago), then Jekyll, then [Sinatra](http://www.sinatrarb.com/), then [NodeJS](https://nodejs.org) and now, I'm back to Jekyll and I'm managing its content using [Siteleaf](http://siteleaf.com). 
+I've also rewritten most of the code for this blog and I had it built with [Jekyll](http://jekyllrb.com) (again). Actually I've been trying different languages/frameworks for this one, just for the sake of trying them. Wordpress (8 years ago), then Jekyll, then [Sinatra](http://www.sinatrarb.com/), then [NodeJS](https://nodejs.org) and now, I'm back to Jekyll, managing its content using [Siteleaf](http://siteleaf.com).
+
+Stay tuned for more posts in the coming days. I have a couple of topics I would like to cover. If you have questions, or particular requests, don't hesitate to contact me. 
