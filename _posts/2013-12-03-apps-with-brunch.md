@@ -2,6 +2,7 @@
 title: Build Spine applications with Brunch
 date: 2013-12-03 00:00:00 Z
 permalink: "/blog/2013/12/04/build-spine-applications-with-brunch/"
+color: "#ff9200"
 layout: article
 ---
 
