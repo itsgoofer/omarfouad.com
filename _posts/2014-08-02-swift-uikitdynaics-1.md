@@ -2,7 +2,7 @@
 title: Getting started with UIKit Dynamics in Swift
 date: 2014-08-02 00:00:00 Z
 permalink: "/blog/2014/08/02/getting-started-uikitdynamics-swift/"
-color: "#2BFD2F"
+color: "#25c728"
 layout: article
 ---
 
