@@ -5,3 +5,4 @@ permalink: "/blog/:title"
 layout: article
 ---
 
+It's been more than a year now, since the last time I published an article on this blog. These last few
