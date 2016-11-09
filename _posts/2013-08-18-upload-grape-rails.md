@@ -2,6 +2,7 @@
 title: File Upload API with Grape and Rails
 date: 2013-08-18 00:00:00 Z
 permalink: "/blog/2013/08/18/file-upload-api-with-grape-and-rails/"
+color: "#3c74ff"
 layout: article
 ---
 
