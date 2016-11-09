@@ -6,7 +6,7 @@ color: "#bdbdbd"
 layout: article
 ---
 
-It's been more than a year now, since the last time I published an article on this blog. I've noticed that my previous post [about Angular and Browserify](http://omarfouad.com/blog/2015/03/21/advanced-angularjs-structure-with-gulp-node-and-browserify/), gained a lot of traction (thanks for the tweets and emails, everyone) and this is one of the reasons why I think I should be back writing.
+It's been more than a year now, since the last time I published an article on this blog. I've noticed that my previous post [about Angular and Browserify](http://omarfouad.com/blog/2015/03/21/advanced-angularjs-structure-with-gulp-node-and-browserify/), gained some traction (thanks for the tweets and emails, everyone) and that's one of the reasons why I think I should start writing again.
 
 I've been working on some projects that took almost all of my time in the past few months. I've learnt a lot and I have tons of stuff that I would like to share in the future.
 
