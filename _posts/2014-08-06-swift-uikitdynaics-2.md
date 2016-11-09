@@ -1,9 +1,10 @@
 ---
-layout: article
-title: "Getting started with UIKit Dynamics in Swift - Part II"
-date: 2014-08-06
+title: Getting started with UIKit Dynamics in Swift - Part II
+date: 2014-08-06 00:00:00 Z
 permalink: "/blog/2014/08/06/getting-started-uikitdynamics-swift-2/"
+layout: article
 ---
+
 In the [previous post](//omarfouad.com/blog/2014/08/02/getting-started-uikitdynamics-swift/), I wrote about UIKit Dynamics covering the following behaviors:
 
 1. UIAttachBehavior

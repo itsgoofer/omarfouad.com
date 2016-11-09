@@ -1,8 +1,8 @@
 ---
-layout: article
-title: "File Upload API with Grape and Rails"
-date: 2013-08-18
+title: File Upload API with Grape and Rails
+date: 2013-08-18 00:00:00 Z
 permalink: "/blog/2013/08/18/file-upload-api-with-grape-and-rails/"
+layout: article
 ---
 
 The main difference between the web now and the web some years ago is the front end development. Most of the work one time was done on the server and the website that appeared to users were just a bunch of divs and tables to show data coming from the back-end. Interactivity was very limited at that time and AJAX was a myth and who had the guts to do some of it could be called a hero.

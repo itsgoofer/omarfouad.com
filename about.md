@@ -1,11 +1,9 @@
 ---
-layout: page
 title: Hello
-permalink: "about/"
-color: '#38CA3F'
+permalink: about/
+layout: page
+color: "#38CA3F"
 ---
-
-
 
 My Name is Omar, a developer and designer based in Rome, Italy. I constantly take shifts between design and code with an enormous amount of passion for what I do. I literally spend almost all of my day on my desk reading, experimenting and putting a huge amount of effort and focus on my work. That's because I strongly believe that quality is the most important side of my job. Quality is what survives through ages. No matter how much technologies evolve or how much design trends change, quality will always be noticed and respected.
 

@@ -1,8 +1,8 @@
 ---
-layout: article
-title: "The story behind my career and Fourteen Inch, LLC"
-date: 2014-02-20
+title: The story behind my career and Fourteen Inch, LLC
+date: 2014-02-20 00:00:00 Z
 permalink: "/blog/2014/02/21/the-story-behind-fourteen-inch-llc/"
+layout: article
 ---
 
 Actually it’s a long story, so bear with me for a little while. 

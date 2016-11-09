@@ -1,9 +1,10 @@
 ---
-layout: article
-title: "Getting started with UIKit Dynamics in Swift"
-date: 2014-08-02
+title: Getting started with UIKit Dynamics in Swift
+date: 2014-08-02 00:00:00 Z
 permalink: "/blog/2014/08/02/getting-started-uikitdynamics-swift/"
+layout: article
 ---
+
 As you may already know, [Swift](//developer.apple.com/swift/), the new programming language from Apple, has been out for quite a while and almost every iOS developer is today having the itch to make the most out of it.
 
 The first thing you’ll notice in the language is its similarity to most of the dot-notation based languages out there, like JavaScript, ActionScript, Java and so on. This is a massive advantage for people who didn’t have the guts to approach iOS development because of the complexity of Objective-C. Now everyone with a bit of programming experience is ready. 

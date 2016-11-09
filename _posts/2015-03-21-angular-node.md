@@ -1,9 +1,9 @@
 ---
-layout: article
-title: "Advanced AngularJS structure with Gulp, Node and Browserify"
-date: 2015-03-21
+title: Advanced AngularJS structure with Gulp, Node and Browserify
+date: 2015-03-21 00:00:00 Z
 permalink: "/blog/2015/03/21/advanced-angularjs-structure-with-gulp-node-and-browserify/"
-color: '#bada55'
+layout: article
+color: "#bada55"
 ---
 
 Many tutorials about [AngularJS](https://angularjs.org/) show how to create a simple app with a very basic project structure. Today I'm going to show you how to set up a more complex and scalable development workflow which I use in most of my Angular projects, using [Node.js](https://nodejs.org/), [Gulp](http://gulpjs.com/) and [Browserify](http://browserify.org/).

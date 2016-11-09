@@ -1,8 +1,8 @@
 ---
-layout: article
-title: "My journey from Rails to Sinatra to Node"
-date: 2015-03-17
+title: My journey from Rails to Sinatra to Node
+date: 2015-03-17 00:00:00 Z
 permalink: "/blog/2015/03/17/jurney-from-rails-to-sinatra-to-nodejs/"
+layout: article
 ---
 
 Last week I invested some time into re-learning [Node.js](http://nodejs.org). The last time I visited the platform it was young and interesting, but it wasn't mature enough in my opinion. At the time, Ruby was my language of choice for the server side work, along with Rails which boosted our productivity in the past two years.

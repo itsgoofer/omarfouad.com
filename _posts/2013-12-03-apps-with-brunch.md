@@ -1,9 +1,10 @@
 ---
-layout: article
-title: "Build Spine applications with Brunch"
-date: 2013-12-03
+title: Build Spine applications with Brunch
+date: 2013-12-03 00:00:00 Z
 permalink: "/blog/2013/12/04/build-spine-applications-with-brunch/"
+layout: article
 ---
+
 Crafting JavaScript web applications can be a tedious process without a scalable structure. The rise of MVC (or MV*) frameworks for JS, had a huge impact on the web and for sure, it defined new standards. Standards that we developers, can't ignore anymore.
 
 However, choosing the right JavaScript MV* framework can be tricky and it really depends on your needs. There are tons of available options out there like, [Backbone](http://backbonejs.org/‎), [Spine](http://spinejs.com/), [Knockout](http://knockoutjs.com/), [Ember](http://emberjs.com/) and more. My choice was, well, Spine.

@@ -1,9 +1,10 @@
 ---
-layout: article
-title: "My toolbox"
-date: 2013-12-10
+title: My toolbox
+date: 2013-12-10 00:00:00 Z
 permalink: "/blog/2013/12/10/my-toolbox/"
+layout: article
 ---
+
 ![](/assets/images/posts/tool_box.jpg)
 <span class="photo-caption">Photo of my wire-crowded desk.</span>
 <p>
