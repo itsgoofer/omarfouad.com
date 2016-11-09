@@ -9,5 +9,7 @@ It's been more than a year now, since the last time I published an article on th
 
 I've been working on some projects that took almost all of my time in the past few months. I've learnt a lot and I have tons of stuff that I would like to share in the future. 
 
-One of the major updates in my front-end development toolbox is, I actually ditched Angular for [VueJS](http://vuejs.org). Angular 1.x has been my JavaScript framework of choice for almost 3 years, and it took me a while to understand its ins and outs. When version 2 was released, the fact that I needed to change my mindset to use the same framework (in theory) seemed absurd. So I switched to Vue 1.x to then migrate to version 2 and the transition was fairly smooth. 
+One of the major updates in my front-end development toolbox is, I actually ditched Angular for [VueJS](http://vuejs.org)—more about that in a later post. 
+
+I've also rewritten most of the code for this blog and I had it built with Jekyll (again). Actually I've been trying different techs for this one, just for the sake of trying them. Worpress (8 years ago), then Jekyll, then Sinatra, then Node and now, I'm back to Jekyll and I'm managing its content using Siteleaf. Siteleaf makes it extremely easy and fun to edit content on a Jekyll based website. 
 
