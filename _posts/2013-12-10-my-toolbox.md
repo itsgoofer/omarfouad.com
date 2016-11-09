@@ -2,6 +2,7 @@
 title: My toolbox
 date: 2013-12-10 00:00:00 Z
 permalink: "/blog/2013/12/10/my-toolbox/"
+color: "#b2b2b2"
 layout: article
 ---
 
