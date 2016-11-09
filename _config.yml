@@ -9,13 +9,11 @@ collections:
     title: Uploads
     output: true
 email: me@omarfouad.com
-description: 'omar Fouad is a designer/software engineer based in Rome, Italy.
-
-'
+description: omar Fouad is a designer/software engineer based in Rome, Italy.
 baseurl: "/"
 url: http://omarfouad.com
 twitter: omarfouad
-color: "#7ec0ff"
+color: "#bdbdbd"
 markdown: kramdown
 theme: minima
 gems:
