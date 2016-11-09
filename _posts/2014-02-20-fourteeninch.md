@@ -2,6 +2,7 @@
 title: The story behind my career and Fourteen Inch, LLC
 date: 2014-02-20 00:00:00 Z
 permalink: "/blog/2014/02/21/the-story-behind-fourteen-inch-llc/"
+color: "#27B798"
 layout: article
 ---
 
