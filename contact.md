@@ -1,8 +1,8 @@
 ---
 title: Contact
 permalink: contact/
+color: "#e87b32"
 layout: page
-color: "#6FCA89"
 ---
 
 You can drop me an email and I'll be more than happy to read it.
