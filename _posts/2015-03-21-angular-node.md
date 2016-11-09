@@ -2,7 +2,7 @@
 title: Advanced AngularJS structure with Gulp, Node and Browserify
 date: 2015-03-21 00:00:00 Z
 permalink: "/blog/2015/03/21/advanced-angularjs-structure-with-gulp-node-and-browserify/"
-color: "#7c7c7c"
+color: "#7ec0ff"
 layout: article
 ---
 
