@@ -2,18 +2,20 @@
 title: Getting started with UIKit Dynamics in Swift - Part II
 date: 2014-08-06 00:00:00 Z
 permalink: "/blog/2014/08/06/getting-started-uikitdynamics-swift-2/"
-color: "#8a58ea"
+color: "#2BFD2F"
 layout: article
 ---
 
 In the [previous post](//omarfouad.com/blog/2014/08/02/getting-started-uikitdynamics-swift/), I wrote about UIKit Dynamics covering the following behaviors:
 
 1. UIAttachBehavior
+
 2. UICollisionBehavior
+
 3. UIGravityBehavior
 
 This time I'm going to talk about the last two ones, `UISnapBehavior` and `UIPushBehavior`.
-These new behaviors are implemented in the same way we implemented the behaviors in the list above, however they will behave differently as their name implies. 
+These new behaviors are implemented in the same way we implemented the behaviors in the list above, however they will behave differently as their name implies.
 
 As usual, let's assume you have xCode 6 Beta (any beta version) installed, with an empty View Controller set up. Then let's add a `greenBox`, a `UIDynamicAnimator` and a `UICollisionBehavior` just in case:
 
@@ -27,23 +29,19 @@ We will start with the push behavior. Note at line 18, for the purposes of this 
 
 The push behavior is very simple. Basically, the UIView that receives the push, is "pushed" away in a specific direction and speed, based on the push settings. In the real world, an object that is pushed, would stop because of gravity, friction and other physical factors. In the space though, if you push an object, it will travel forever in that trajectory, until it finds some meteor to smash into. But that's another story.
 
-It's important to know that this behavior has two modes: `UIPushBehaviorMode.Instantaneous` and `UIPushBehaviorMode.Continuous`. The Instantaneous mode makes the UIView receive only one push per time. That means that after some time, the movement of the object slows down until it stops (unless you give a high elasticity to the object for example, at that point it will bounce around forever). 
+It's important to know that this behavior has two modes: `UIPushBehaviorMode.Instantaneous` and `UIPushBehaviorMode.Continuous`. The Instantaneous mode makes the UIView receive only one push per time. That means that after some time, the movement of the object slows down until it stops (unless you give a high elasticity to the object for example, at that point it will bounce around forever).
 
-On the other hand, the Continuous mode, will push the object repeatedly, adding to each time more speed to it gradually. This would be ideal for rockets, cars and space ships. If you do game development this could be useful. 
+On the other hand, the Continuous mode, will push the object repeatedly, adding to each time more speed to it gradually. This would be ideal for rockets, cars and space ships. If you do game development this could be useful.
 
 In the code above, the push mode is Instantaneous, so the box is pushed upwards, colliding to the edge of the screen and bouncing back. Note that we don't have any gravity set up in this example. At line 30 we have are adding both an angle of -180 degrees to the push (upward direction) and a magnitude value, which is the "strength" of the push. Build and see:
 
-
 ![](/assets/images/posts/uikitdynamics2-1.gif)
 
-
-If you change the push mode to `UIPushBehaviorMode.Continuous`, the box will hit the edge of the screen bounce a little and still move upwards, sticking to the boundary trying to get through it, of course, the poor little green guy, will never get out of there: 
-
+If you change the push mode to `UIPushBehaviorMode.Continuous`, the box will hit the edge of the screen bounce a little and still move upwards, sticking to the boundary trying to get through it, of course, the poor little green guy, will never get out of there:
 
 ![](/assets/images/posts/uikitdynamics2-2.gif)
 
-
-Let's make it a bit more interesting, by pushing the green box only when tapping on it. For that we will need to add a simple `UITapGestureRecognizer` and handle it. Follow along: 
+Let's make it a bit more interesting, by pushing the green box only when tapping on it. For that we will need to add a simple `UITapGestureRecognizer` and handle it. Follow along:
 
 <script src="https://gist.github.com/omarfouad/f2d1e916bc204a89661d.js"></script>
 
@@ -59,7 +57,7 @@ The Snap behavior, or `UISnapBehavior` is very straightforward. All it does is t
 
 <script src="https://gist.github.com/omarfouad/692f8ac36c352bf9e5af.js"></script>
 
-At line 58 we are adding the snap behavior to the animator. We also have to remove it every time we try to drag or push (by tapping) the green box, thus we did at line 46 and 65. The sequence of removing and re-adding behaviors, in combination with the Push's `active` property is very important to make things work together. 
+At line 58 we are adding the snap behavior to the animator. We also have to remove it every time we try to drag or push (by tapping) the green box, thus we did at line 46 and 65. The sequence of removing and re-adding behaviors, in combination with the Push's `active` property is very important to make things work together.
 
 ![](/assets/images/posts/uikitdynamics2-4.gif)
 
