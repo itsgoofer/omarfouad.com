@@ -80,6 +80,20 @@
 				section li a{
 					color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
 				}
+
+				section li a:hover {
+					color: white;
+    			background-color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
+				}
+				.archive-link {
+					color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
+				}
+				
+				.archive-link:hover {
+					color: white;
+    			background-color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
+    		}
+
 			</style>
 		
     </head>
