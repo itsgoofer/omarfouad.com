@@ -12,7 +12,7 @@
       <meta property="og:site_name" content="Omar Fouad" />
 
       {% if page.title == 'Blog' %}
-      	<meta property="og:description" content="{{ site.posts.first.excerpt | strip_html }}" />
+      	<meta property="og:description" content="Omar Fouad is a Designer and a software engineer based in Rome, Italy." />
       {% elsif page.title == 'Hello' or page.title == 'Contact' %}
       	<meta property="og:description" content="{{page.description}}" />
       {% else %}
@@ -26,7 +26,7 @@
       <meta http-equiv="Expires" content="0" />
 	
       {% if page.title == 'Blog' %}
-      	<meta name="description" content="{{ site.posts.first.excerpt | strip_html }}" />
+      	<meta name="description" content="Omar Fouad is a Designer and a software engineer based in Rome, Italy." />
       {% elsif page.title == 'Hello' or page.title == 'Contact' %}
       	<meta name="description" content="{{page.description}}" />
       {% else %}
