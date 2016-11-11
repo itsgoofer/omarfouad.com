@@ -94,6 +94,16 @@
     			background-color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
     		}
 
+    		::selection {
+    		  background: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
+    		  color: #FFFFFF
+    		}
+
+    		::-moz-selection {
+    		  background: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
+    		  color: #FFFFFF
+    		}
+
 			</style>
 		
     </head>
