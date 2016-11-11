@@ -2,7 +2,7 @@
 title: Hello
 permalink: about/
 layout: page
-description: "My Name is Omar, a developer and designer based in Rome, Italy."
+description: My Name is Omar, a developer and designer based in Rome, Italy.
 color: "#38CA3F"
 ---
 
