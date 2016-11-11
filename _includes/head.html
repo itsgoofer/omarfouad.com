@@ -1,0 +1,85 @@
+<head>
+      <meta charset="utf-8">
+      <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+
+      <meta name="author" content="Omar Fouad" />
+      <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+      <meta property="og:title" content="{{site.title}} - {{page.title}}" />
+      <meta property="og:url" content="http://omarfouad.com{{page.url | replace: '.html' ''}}" />
+      <meta property="og:image" content="http://omarfouad.com/assets/images/favicon.png" />
+      <meta property="og:site_name" content="Omar Fouad" />
+
+      {% if page.title == 'Blog' %}
+      	<meta property="og:description" content="{{ site.posts.first.excerpt | strip_html }}" />
+      {% elsif page.title == 'Hello' or page.title == 'Contact' %}
+      	<meta property="og:description" content="{{page.description}}" />
+      {% else %}
+      	<meta property="og:description" content="{{page.excerpt | strip_html}}" />
+      {% endif %}
+      
+      <meta property="og:type" content="article" />
+
+      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+      <meta http-equiv="Pragma" content="no-cache" />
+      <meta http-equiv="Expires" content="0" />
+	
+      {% if page.title == 'Blog' %}
+      	<meta name="description" content="{{ site.posts.first.excerpt | strip_html }}" />
+      {% elsif page.title == 'Hello' or page.title == 'Contact' %}
+      	<meta name="description" content="{{page.description}}" />
+      {% else %}
+      	<meta name="description" content="{{page.excerpt | strip_html}}" />
+      {% endif %}
+
+      <meta name="keywords" content="omarfouad.com, omar, fouad, omar fouad, omarfouad, website, designer, developer, quartierzero, quartier, zero, quartier zero, egypt, new york, portfolio, web, development, official, html5, css3, ruby,
+      javascript, coffeescript, sass, nodejs" />
+
+      <title>{{site.title}} - {{page.title}}</title>
+      {% include styles.html %}
+      {% include analytics.html %}
+
+			<style>
+				header nav .selected a,
+				header nav li a:hover {
+					color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %}
+				}
+
+				.prev-arrow:hover, .next-arrow:hover {
+					color: white;
+				  background-color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
+				}
+
+				article hgroup .article-title a:hover {
+					color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
+				}
+				article hgroup .article-date a {
+					color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
+				}
+
+				article .post-body p a,
+				.page .page-body p a {
+					color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
+				}
+
+				article .post-body p a:hover,
+				.page .page-body p a:hover {
+					color: white;
+					background-color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
+				}
+
+				code {
+				  background-color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
+				  color: white;
+				}
+
+				footer a {
+					color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
+				}
+				section li a{
+					color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
+				}
+			</style>
+		
+    </head>

@@ -1,54 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      {% include meta-tags.html %}
-      <title>{{site.title}} - {{page.title}}</title>
-      {% include styles.html %}
-      {% include analytics.html %}
-
-			<style>
-				header nav .selected a,
-				header nav li a:hover {
-					color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %}
-				}
-
-				.prev-arrow:hover, .next-arrow:hover {
-					color: white;
-				  background-color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
-				}
-
-				article hgroup .article-title a:hover {
-					color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
-				}
-				article hgroup .article-date a {
-					color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
-				}
-
-				article .post-body p a,
-				.page .page-body p a {
-					color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
-				}
-
-				article .post-body p a:hover,
-				.page .page-body p a:hover {
-					color: white;
-					background-color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
-				}
-
-				code {
-				  background-color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
-				  color: white;
-				}
-
-				footer a {
-					color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
-				}
-				section li a{
-					color: {% if page.color %} {{page.color}} {% else %} {{site.color}} {% endif %};
-				}
-			</style>
-		
-    </head>
+    {% include head.html %}
     <body>
       <div class="site-wrapper">
         {% include header.html %}
