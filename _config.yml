@@ -13,7 +13,7 @@ defaults:
     path: ''
     type: posts
   values:
-    layout: post
+    layout: article
     permalink: "/blog/:title/"
 email: me@omarfouad.com
 description: omar Fouad is a designer/software engineer based in Rome, Italy.
