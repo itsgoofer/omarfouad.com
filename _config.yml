@@ -2,9 +2,6 @@
 title: Omar Fouad
 timezone: UTC
 collections:
-  post:
-    title: Posts
-    output: true
   posts:
     title: Posts
     output: true
