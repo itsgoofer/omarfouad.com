@@ -8,6 +8,13 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/blog/:title/"
 email: me@omarfouad.com
 description: omar Fouad is a designer/software engineer based in Rome, Italy.
 baseurl: "/"
