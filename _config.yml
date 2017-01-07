@@ -6,6 +6,9 @@ collections:
     title: Posts
     output: true
     permalink: "/blog/:title"
+  postsjkl:
+    title: Posts
+    output: true
   posts:
     title: Posts
     output: true
