@@ -1,6 +1,7 @@
 ---
 title: Sass indented syntax in VueJS 2
 date: 2017-01-07 13:32:00 Z
+published: false
 ---
 
 Among all the available CSS preprocessors, SASS has been my language of choice, especially with indented syntax (.sass files). 
