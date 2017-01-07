@@ -1,7 +1,7 @@
 ---
 title: Back to writing
 date: 2016-11-09 11:15:00 Z
-permalink: "/blog/:title"
+permalink: "/blog/back-to-writing/"
 color: "#bdbdbd"
 layout: article
 ---
