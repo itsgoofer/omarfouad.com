@@ -5,6 +5,7 @@ collections:
   blog:
     title: Posts
     output: true
+    permalink: "/blog/:title"
   posts:
     title: Posts
     output: true
