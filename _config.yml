@@ -2,16 +2,10 @@
 title: Omar Fouad
 timezone: UTC
 collections:
-  post:
-    title: Posts
-    output: true
-    permalink: "/blog/:title"
-  postsjkl:
-    title: Posts
-    output: true
   posts:
     title: Posts
     output: true
+    permalink: "/blog/:title"
   uploads:
     title: Uploads
     output: true
