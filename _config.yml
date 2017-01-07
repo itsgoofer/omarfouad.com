@@ -2,7 +2,7 @@
 title: Omar Fouad
 timezone: UTC
 collections:
-  blog:
+  post:
     title: Posts
     output: true
     permalink: "/blog/:title"
