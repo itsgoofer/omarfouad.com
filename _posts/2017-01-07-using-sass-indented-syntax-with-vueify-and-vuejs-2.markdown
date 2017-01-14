@@ -1,6 +1,7 @@
 ---
 title: Using Sass indented syntax with Vueify and VueJS 2
 date: 2017-01-07 14:59:00 Z
+color: "#49d070"
 ---
 
 Among many CSS preprocessors available these days, [SASS](http://sass-lang.com/) is definitely my favorite especially because of its indented syntax (.sass files).
@@ -55,3 +56,4 @@ module.exports = {
 
 Note the `indentedSyntax` property set to `true`. This tells Vueify that our sass syntax is, obviously, the indented one. Of course if we set it to `false`, or just don't set it at all, Vueify will compile SASS written in its normal syntax (the one using braces and semicolons).
 
+Don't hesitate to contact me if you have questions. 
