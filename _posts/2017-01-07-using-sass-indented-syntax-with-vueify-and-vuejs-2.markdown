@@ -2,6 +2,7 @@
 title: Using Sass indented syntax with Vueify and VueJS 2
 date: 2017-01-07 14:59:00 Z
 color: "#49d070"
+layout: article
 ---
 
 Among many CSS preprocessors available these days, [SASS](http://sass-lang.com/) is definitely my favorite especially because of its indented syntax (.sass files).
