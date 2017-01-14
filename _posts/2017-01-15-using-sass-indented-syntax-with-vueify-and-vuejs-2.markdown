@@ -5,7 +5,7 @@ color: "#49d070"
 layout: article
 ---
 
-Among many CSS preprocessors available these days, [SASS](http://sass-lang.com/) is definitely my favorite especially because of its indented syntax (.sass files).
+Among many CSS preprocessors available these days, [SASS](http://sass-lang.com/) is definitely my favorite, especially because of its indented syntax (.sass files).
 
 These days I'm rewriting a web app using [VueJS 2](https://vuejs.org/), using the Browserify template generated through the [VueJS CLI](https://github.com/vuejs/vue-cli). Since this framework is almost entirely based on components, the author provided a way to write a component in one file, which is split into three portions: template, logic and style. These can be written in a single `.vue` file which contains a template tag, a script tag and a style tag:
 
