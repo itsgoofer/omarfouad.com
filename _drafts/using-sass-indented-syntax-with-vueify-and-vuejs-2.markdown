@@ -25,3 +25,13 @@ These days I'm rewriting a web app using VueJS 2, using the Browserify template 
 ```
 
 It's important to note that the Vue ecosystem includes a Browserify plugin (transform) that handles these .vue files. Vueify is installed with the other NPM packages when a project is bootstrapped using the official Vue CLI using the Browserify template. 
+
+Now, in the `style` portion of your .vue file, you can write SASS just by adding a `lang` attribute to the tag: 
+
+```html
+<style lang="sass">
+  h1
+    color: #bada55
+</style> 
+```
+
