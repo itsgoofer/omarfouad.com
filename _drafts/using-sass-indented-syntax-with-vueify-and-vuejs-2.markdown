@@ -35,3 +35,21 @@ Now, in the `style` portion of your .vue file, you can write SASS just by adding
 </style> 
 ```
 
+However, in order for this to work, we have to make a couple of changes to our projects. Assuming you have the SASS Ruby Gen installed on your system, we first need to install the node-sass package: 
+
+```
+npm install --save-dev node-sass
+```
+
+The next step is to create a file named `vue.config.js` at the root of our project directory (if it's not there already), with the following code: 
+
+```
+module.exports = {
+  sass: {
+    includePaths: ['./src/sass'],
+    indentedSyntax: true
+  }
+}
+```
+
+Note the `indentedSyntax` property set to `true`. This tells Vueify that our sass syntax is, obviously, the indented one. Of course if we set it to false, or just don't set it at all, Vueify will compile SASS written in its normal syntax (the one using braces and semicolons).
