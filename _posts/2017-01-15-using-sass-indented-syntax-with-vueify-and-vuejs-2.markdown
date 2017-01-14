@@ -1,5 +1,5 @@
 ---
-title: Using Sass indented syntax with Vueify and VueJS 2
+title: Using the Sass indented syntax with Vueify and VueJS 2
 date: 2017-01-15 14:59:00 Z
 color: "#49d070"
 layout: article
