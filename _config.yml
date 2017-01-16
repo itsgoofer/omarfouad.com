@@ -20,7 +20,7 @@ description: omar Fouad is a designer/software engineer based in Rome, Italy.
 baseurl: "/"
 url: http://omarfouad.com
 twitter: omarfouad
-color: "#bdbdbd"
+color: "#49d070"
 markdown: kramdown
 theme: minima
 gems:
