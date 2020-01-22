@@ -1,0 +1,21 @@
+<header>
+	{% assign current = page.url | split: "/" %}
+
+	<a href="/">
+	{% if page.color %}
+		<div class="logo" style="background-color: {{page.color}};"></div>
+	{% else %}
+		<div class="logo" style="background-color: {{site.color}};"></div>
+	{% endif %}
+	</a>
+	<nav>
+		<ul>
+			<li {% if current[1] == null or current[1] == 'blog' %} class="selected" {% endif %} "><a href="/">Blog</a></li>
+			<li {% if current[1] == 'archive' %} class="selected" {% endif %} ><a href="/archive"/>Archive</a></li>
+			<li {% if current[1] == 'about' %} class="selected" {% endif %} ><a href="/about/">About</a></li>
+			<li {% if current[1] == 'contact' %} class="selected" {% endif %} ><a href="/contact/">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+
+
